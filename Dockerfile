@@ -1,4 +1,4 @@
-FROM phusion/baseimage:latest
+FROM ubuntu:14.04
 
 RUN apt-get update -qq && \
   apt-get upgrade -qqy && \
