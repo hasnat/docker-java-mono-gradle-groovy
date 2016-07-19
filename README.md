@@ -16,7 +16,7 @@ docker run -d \
 
 To start or attach
 ```
-docker exec -i -t ent-dotnet /bin/bash
+docker exec -i -t app-1 /bin/bash
 ```
 
 ### Versions
