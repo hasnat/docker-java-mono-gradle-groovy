@@ -1,5 +1,5 @@
 
-### hasnat/java-mono-gradle-groovy
+### hasnat/java-mono-gradle-groovy:ubuntu14.04
 Docker container containing java, mono, gradle and groovy
 
 ## Getting Started
@@ -11,7 +11,7 @@ docker run -d \
     -e HOME=/app \
     -v /app/source/path/on/host:/app/ \
     -v /config/gradle-init:/root/.gradle/ \
-    hasnat/java-mono-gradle-groovy
+    hasnat/java-mono-gradle-groovy:ubuntu14.04
 ```
 
 To start or attach
