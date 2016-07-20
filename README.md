@@ -31,9 +31,8 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.91-b14, mixed mode)
 
 ### mono
 ```
-
 root@f26704d183f5:/# mono -V
-Mono JIT compiler version 4.2.1 (Debian 4.2.1.102+dfsg2-7ubuntu4)
+Mono JIT compiler version 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com
 	TLS:           __thread
 	SIGSEGV:       altstack
@@ -43,27 +42,20 @@ Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-proj
 	Misc:          softdebug 
 	LLVM:          supported, not enabled.
 	GC:            sgen
-
-root@f26704d183f5:/# java -version
-java version "1.8.0_91"
-Java(TM) SE Runtime Environment (build 1.8.0_91-b14)
-Java HotSpot(TM) 64-Bit Server VM (build 25.91-b14, mixed mode)
 ```
 
 ### xbuild
 ```
-
-root@f26704d183f5:/# xbuild -help
+root@f26704d183f5:/# xbuild /version
 XBuild Engine Version 12.0
-Mono, Version 4.2.1.0
+Mono, Version 3.2.8.0
 Copyright (C) 2005-2013 Various Mono authors
 ```
 
 ### doxygen
 ```
-
 root@f26704d183f5:/# doxygen -v
-1.8.11
+1.8.6
 
 ```
 
@@ -93,4 +85,4 @@ Groovy Version: 2.4.5 JVM: 1.8.0_91 Vendor: Oracle Corporation OS: Linux
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
